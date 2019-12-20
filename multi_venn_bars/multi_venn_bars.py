@@ -203,3 +203,5 @@ def venn_bars_multi(sets, labels=None, order_chunks_by='smart', ignore_chunks_sm
     plt.xlim(-x_margin, len(all_elements) + x_margin)
     plt.yticks(range(len(sets) + 1), [])
     plt.grid(alpha=0.5)
+
+    
